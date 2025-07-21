@@ -1,0 +1,42 @@
+{
+	"name": "ds_sqldb1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sqldb1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "empno",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ename",
+				"type": "varchar"
+			},
+			{
+				"name": "dept",
+				"type": "varchar"
+			},
+			{
+				"name": "salary",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "join_dt",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "emptb"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

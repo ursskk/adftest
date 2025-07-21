@@ -1,0 +1,9 @@
+{
+	"name": "idea-mda-skk-npe-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "167b33fe-91ca-4912-ac48-e6e07723046c",
+		"tenantId": "628a58b0-63ed-4676-9199-ed748d6b276a"
+	}
+}
