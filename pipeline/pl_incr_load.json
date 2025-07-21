@@ -63,7 +63,7 @@
 								"source": {
 									"type": "AzureSqlSource",
 									"sqlReaderQuery": {
-										"value": "@concat('select * from dbo.emptb where join_dt > ''', item().update_time,'''')",
+										"value": "select * from dbo.emptb where join_dt > @{item().update_time}",
 										"type": "Expression"
 									},
 									"queryTimeout": "02:00:00",
